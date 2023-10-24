@@ -46,7 +46,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* height: 712px; */
 
   /* border: 1px solid red; */
@@ -125,7 +126,6 @@ o display: Block (dá toda a largura possível do elemento) e joga os outros ele
 .light #switch button {
   right: 0;
   left: initial;
-
 }
 /* Por padrão o Span tem o display inline, então o display inline não vai aceitar algumas propriedades*/
 #switch span {
