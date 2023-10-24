@@ -123,7 +123,7 @@ o display: Block (dá toda a largura possível do elemento) e joga os outros ele
   z-index: 1;
   transform: translatey(-50%);
 
-  animation: slide back 0.2s;
+  animation: slide-back 0.2s;
 }
 
 .light #switch button {
@@ -220,7 +220,7 @@ ul li a:hover {
 
 #social-links a:hover {
   /* background: rgba(255, 255, 255, 0.2); */
-  background: var(--highlight-color);
+  /*  background: var(--highlight-color); */
 }
 
 footer {
@@ -251,8 +251,10 @@ footer {
 }
 
 @keyframes slide-back {
-  left: 50%;
-}
-to {
-  left: 0;
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
